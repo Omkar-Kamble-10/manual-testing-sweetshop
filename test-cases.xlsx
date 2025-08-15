@@ -1,0 +1,4 @@
+| Test ID | Title                            | Steps                                               | Expected Result       | Actual Result      | Status |
+| ------- | -------------------------------- | --------------------------------------------------- | --------------------- | ------------------ | ------ |
+| TC-001  | Add integer-priced items to cart | Add £1.00 and £2.00 items, select Standard Shipping | Total = £3.00 + £1.99 | Displays correctly | Pass   |
+| TC-002  | Add decimal-priced item to cart  | Add £2.95 item, select Standard Shipping            | Total = £2.95 + £1.99 | Shows NaN          | Fail   |
